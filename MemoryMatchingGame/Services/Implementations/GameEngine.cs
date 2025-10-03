@@ -1,26 +1,59 @@
 ﻿using MemoryMatchingGame.Core.Enums;
-using MemoryMatchingGame.Core.Models;
+using MemoryMatchingGame.Core.Entities;
+using MemoryMatchingGame.Core.Services.Interfaces.Rules;
 using MemoryMatchingGame.Core.Services.Interfaces;
+using System.Collections.ObjectModel;
 
 namespace MemoryMatchingGame.Core.Services.Implementations;
 
-internal class GameEngine : IGameEngine
+public class GameEngine : IGameEngine
 {
     private readonly IMatchChecker _matchChecker;
-    private readonly GameRules _gameRules;
-    private readonly GameBoard _board;
+    private readonly IShuffler _shuffler;
+    private IRuleSet _ruleSet;
 
-    public GameEngine(IMatchChecker matchChecker, GameRules gameRules)
+    public ObservableCollection<Card>? Cards { get; private set; }
+
+    public ObservableCollection<Card>? FlippedCards => Cards == null ? null : 
+        [.. Cards.Where(c => c.Status == CardStatus.Flipped)];
+
+    public GameEngine(IMatchChecker matchChecker, IShuffler shuffler)
     {
         _matchChecker = matchChecker;
-        _gameRules = gameRules;
+        _shuffler = shuffler;
     }
 
-    public void StartNewGame(GameRules ruleSet)
+    public void StartNewGame(IRuleSet ruleSet)
     {
-        var board = new GameBoard();
-        board.Initialize(ruleSet);
+        _ruleSet = ruleSet;
+        InitializeCards(_ruleSet);
     }
+
+    public void InitializeCards(IRuleSet gameRules)
+    {
+        int numberOfMatches = gameRules.TotalCards / gameRules.CardsPerMatch;
+        var guidMatches = new List<Guid>(numberOfMatches);
+        for (int i = 0; i < numberOfMatches; i++)
+        {
+            var guid = Guid.NewGuid();
+            guidMatches.AddRange(Enumerable.Repeat(guid, gameRules.CardsPerMatch));
+        }
+
+        var cards = guidMatches.Select(guid => new Card(Guid.NewGuid(), guid)).ToList();
+
+        _shuffler.FisherYatesShuffle(cards);
+
+        Cards = new ObservableCollection<Card>(cards);
+    }
+
+    public (int Rows, int Cols) CalculateGrid(int totalCards)
+    {
+        int cols = (int)Math.Ceiling(Math.Sqrt(totalCards));
+        int rows = (int)Math.Ceiling((double)totalCards / cols);
+
+        return (rows, cols);
+    }
+
 
     public void FlipCard(Card card)
     {
@@ -29,7 +62,12 @@ internal class GameEngine : IGameEngine
 
     public void CheckForMatch()
     {
-        var checkResult = _matchChecker.Check(_board.FlippedCards, _gameRules);
+        if (FlippedCards == null)
+        {
+            return;
+        }
+
+        var checkResult = _matchChecker.Check(FlippedCards, _ruleSet);
         if (checkResult == MatchStatus.NotMatch)
         {
             ReturnFlippedCardsToNonFlipped();
@@ -42,16 +80,22 @@ internal class GameEngine : IGameEngine
 
     public bool IsGameFinished()
     {
-        return _board.Cards.All(card => card.Status == CardStatus.Matched);
+        return Cards != null && Cards.All(card => card.Status == CardStatus.Matched);
     }
 
     private void MatchFlippedCards()
     {
-        _board.FlippedCards.ForEach(card => card.Status = CardStatus.Matched);
+        foreach (var card in FlippedCards)
+        {
+            card.Status = CardStatus.Matched;
+        }
     }
 
     private void ReturnFlippedCardsToNonFlipped()
     {
-        _board.FlippedCards.ForEach(card => card.Status = CardStatus.NonFlipped);
+        foreach (var card in FlippedCards)
+        {
+            card.Status = CardStatus.NonFlipped;
+        }
     }
 }

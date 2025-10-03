@@ -2,7 +2,7 @@
 
 namespace MemoryMatchingGame.Core.Services.Interfaces;
 
-public interface IScoreCalculator
+public interface IShuffler
 {
-    bool Calculate(List<Card> flippedCards, bool isMatched);
+    void FisherYatesShuffle(List<Card> cards);
 }
