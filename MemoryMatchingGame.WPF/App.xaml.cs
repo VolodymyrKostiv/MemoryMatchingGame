@@ -1,14 +1,41 @@
-﻿using System.Configuration;
-using System.Data;
+﻿using MemoryMatchingGame.Infrastructure.Extensions;
+using MemoryMatchingGame.WPF.Services.Implementations;
+using MemoryMatchingGame.WPF.Services.Interfaces;
+using MemoryMatchingGame.WPF.ViewModels;
+using Microsoft.Extensions.DependencyInjection;
 using System.Windows;
 
-namespace MemoryMatchingGame.WPF
+namespace MemoryMatchingGame.WPF;
+
+public partial class App : Application
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
-    public partial class App : Application
+    public static ServiceProvider? ServiceProvider { get; private set; }
+
+    protected override void OnStartup(StartupEventArgs e)
     {
+        base.OnStartup(e);
+
+        var services = new ServiceCollection();
+        ConfigureServices(services);
+
+        ServiceProvider = services.BuildServiceProvider();
+
+        var mainWindow = ServiceProvider.GetRequiredService<MainWindow>();
+        mainWindow.Show();
     }
 
+    private void ConfigureServices(IServiceCollection services)
+    {
+        services.AddInfrastructure();
+        
+        services.AddSingleton<MainViewModel>();
+
+        services.AddSingleton<INavigation, NavigationService>();
+
+        services.AddTransient<MenuViewModel>();
+        services.AddTransient<SettingsViewModel>();
+        services.AddTransient<GameViewModel>();
+
+        services.AddTransient<MainWindow>();
+    }   
 }

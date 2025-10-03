@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryMatchingGame.Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryMatchingGame.WPF", "MemoryMatchingGame.WPF\MemoryMatchingGame.WPF.csproj", "{58186936-A3F6-4974-ABF9-2900BD8B5D64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryMatchingGame.Infrastructure", "MemoryMatchingGame.Infrastructure\MemoryMatchingGame.Infrastructure.csproj", "{D4EC0E96-34E4-405E-B61A-C6CB1960A001}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{58186936-A3F6-4974-ABF9-2900BD8B5D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58186936-A3F6-4974-ABF9-2900BD8B5D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58186936-A3F6-4974-ABF9-2900BD8B5D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4EC0E96-34E4-405E-B61A-C6CB1960A001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EC0E96-34E4-405E-B61A-C6CB1960A001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EC0E96-34E4-405E-B61A-C6CB1960A001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EC0E96-34E4-405E-B61A-C6CB1960A001}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

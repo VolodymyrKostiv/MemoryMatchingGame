@@ -1,24 +1,17 @@
-﻿using System.Text;
+﻿using GalaSoft.MvvmLight;
+using MemoryMatchingGame.WPF.ViewModels;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
-namespace MemoryMatchingGame.WPF
+namespace MemoryMatchingGame.WPF;
+
+public partial class MainWindow : Window
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
+    public MainWindow()
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
+        var viewModel = App.ServiceProvider?.GetService(typeof(MainViewModel)) as MainViewModel;
+        var currentViewModel = App.ServiceProvider?.GetService(typeof(MenuViewModel)) as ViewModelBase;
+        viewModel!.CurrentViewModel = currentViewModel!;
+        DataContext = viewModel;
     }
 }

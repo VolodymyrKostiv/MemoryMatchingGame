@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="MemoryMatchingGame.WPF.Views.GameView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:conv="clr-namespace:MemoryMatchingGame.WPF.Converters"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:entities="clr-namespace:MemoryMatchingGame.Core.Entities;assembly=MemoryMatchingGame.Core"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:usercontrols="clr-namespace:MemoryMatchingGame.WPF.UserControls"
+             xmlns:vm="clr-namespace:MemoryMatchingGame.WPF.ViewModels"
+             d:DataContext="{d:DesignInstance Type=vm:GameViewModel,
+                                              IsDesignTimeCreatable=True}"
+             mc:Ignorable="d">
+    <Grid>
+        <ItemsControl ItemsSource="{Binding Cards}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="{Binding Columns}" Rows="{Binding Rows}" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <usercontrols:ContentControl3D x:Name="contentCtrl3D">
+                        <usercontrols:ContentControl3D.Content>
+                            <BitmapImage  Command="usercontrols:ContentControl3D.RotateCommand" Content="A" />
+                        </usercontrols:ContentControl3D.Content>
+                        <usercontrols:ContentControl3D.BackContent>
+                            <Button Command="usercontrols:ContentControl3D.RotateCommand" Content="B" />
+                        </usercontrols:ContentControl3D.BackContent>
+                    </usercontrols:ContentControl3D>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </Grid>
+</UserControl>
