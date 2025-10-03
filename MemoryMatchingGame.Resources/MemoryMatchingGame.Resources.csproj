@@ -6,4 +6,618 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\Images\Pokemons\Back\01 Pokeball.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0001 Bulbasaur.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0002 Ivysaur.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0003 Venusaur.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0004 Charmander.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0005 Charmeleon.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0006 Charizard.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0007 Squirtle.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0008 Wartortle.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0009 Blastoise.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0010 Caterpie.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0011 Metapod.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0012 Butterfree.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0013 Weedle.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0014 Kakuna.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0015 Beedrill.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0016 Pidgey.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0017 Pidgeotto.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0018 Pidgeot.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0019 Rattata.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0020 Raticate.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0021 Spearow.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0022 Fearow.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0023 Ekans.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0024 Arbok.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0025 Pikachu.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0026 Raichu.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0027 Sandshrew.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0028 Sandslash.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0029 Nidoran.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0030 Nidorina.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0031 Nidoqueen.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0032 Nidoran.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0033 Nidorino.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0034 Nidoking.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0035 Clefairy.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0036 Clefable.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0037 Vulpix.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0038 Ninetales.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0039 Jigglypuff.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0040 Wigglytuff.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0041 Zubat.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0042 Golbat.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0043 Oddish.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0044 Gloom.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0045 Vileplume.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0046 Paras.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0047 Parasect.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0048 Venonat.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0049 Venomoth.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0050 Diglett.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0051 Dugtrio.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0052 Meowth.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0053 Persian.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0054 Psyduck.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0055 Golduck.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0056 Mankey.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0057 Primeape.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0058 Growlithe.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0059 Arcanine.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0060 Poliwag.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0061 Poliwhirl.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0062 Poliwrath.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0063 Abra.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0064 Kadabra.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0065 Alakazam.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0066 Machop.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0067 Machoke.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0068 Machamp.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0069 Bellsprout.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0070 Weepinbell.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0071 Victreebel.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0072 Tentacool.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0073 Tentacruel.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0074 Geodude.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0075 Graveler.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0076 Golem.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0077 Ponyta.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0078 Rapidash.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0079 Slowpoke.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0080 Slowbro.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0081 Magnemite.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0082 Magneton.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0083 Farfetch%27d.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0084 Doduo.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0085 Dodrio.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0086 Seel.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0087 Dewgong.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0088 Grimer.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0089 Muk.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0090 Shellder.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0091 Cloyster.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0092 Gastly.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0093 Haunter.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0094 Gengar.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0095 Onix.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0096 Drowzee.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0097 Hypno.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0098 Krabby.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0099 Kingler.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0100 Voltorb.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0101 Electrode.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0102 Exeggcute.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0103 Exeggutor.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0104 Cubone.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0105 Marowak.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0106 Hitmonlee.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0107 Hitmonchan.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0108 Lickitung.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0109 Koffing.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0110 Weezing.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0111 Rhyhorn.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0112 Rhydon.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0113 Chansey.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0114 Tangela.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0115 Kangaskhan.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0116 Horsea.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0117 Seadra.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0118 Goldeen.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0119 Seaking.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0120 Staryu.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0121 Starmie.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0122 Mr. Mime .png" />
+    <None Remove="Assets\Images\Pokemons\Front\0123 Scyther.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0124 Jynx.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0125 Electabuzz.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0126 Magmar.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0127 Pinsir.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0128 Tauros.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0129 Magikarp.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0130 Gyarados.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0131 Lapras.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0132 Ditto.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0133 Eevee.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0134 Vaporeon.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0135 Jolteon.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0136 Flareon.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0137 Porygon.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0138 Omanyte.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0139 Omastar.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0140 Kabuto.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0141 Kabutops.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0142 Aerodactyl.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0143 Snorlax.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0144 Articuno.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0145 Zapdos.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0146 Moltres.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0147 Dratini.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0148 Dragonair.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0149 Dragonite.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0150 Mewtwo.png" />
+    <None Remove="Assets\Images\Pokemons\Front\0151 Mew.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\Pokemons\Back\01 Pokeball.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0001 Bulbasaur.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0002 Ivysaur.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0003 Venusaur.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0004 Charmander.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0005 Charmeleon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0006 Charizard.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0007 Squirtle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0008 Wartortle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0009 Blastoise.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0010 Caterpie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0011 Metapod.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0012 Butterfree.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0013 Weedle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0014 Kakuna.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0015 Beedrill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0016 Pidgey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0017 Pidgeotto.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0018 Pidgeot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0019 Rattata.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0020 Raticate.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0021 Spearow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0022 Fearow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0023 Ekans.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0024 Arbok.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0025 Pikachu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0026 Raichu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0027 Sandshrew.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0028 Sandslash.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0029 Nidoran.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0030 Nidorina.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0031 Nidoqueen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0032 Nidoran.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0033 Nidorino.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0034 Nidoking.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0035 Clefairy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0036 Clefable.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0037 Vulpix.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0038 Ninetales.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0039 Jigglypuff.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0040 Wigglytuff.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0041 Zubat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0042 Golbat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0043 Oddish.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0044 Gloom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0045 Vileplume.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0046 Paras.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0047 Parasect.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0048 Venonat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0049 Venomoth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0050 Diglett.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0051 Dugtrio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0052 Meowth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0053 Persian.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0054 Psyduck.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0055 Golduck.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0056 Mankey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0057 Primeape.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0058 Growlithe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0059 Arcanine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0060 Poliwag.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0061 Poliwhirl.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0062 Poliwrath.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0063 Abra.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0064 Kadabra.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0065 Alakazam.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0066 Machop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0067 Machoke.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0068 Machamp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0069 Bellsprout.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0070 Weepinbell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0071 Victreebel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0072 Tentacool.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0073 Tentacruel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0074 Geodude.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0075 Graveler.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0076 Golem.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0077 Ponyta.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0078 Rapidash.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0079 Slowpoke.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0080 Slowbro.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0081 Magnemite.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0082 Magneton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0083 Farfetch'd.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0084 Doduo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0085 Dodrio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0086 Seel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0087 Dewgong.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0088 Grimer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0089 Muk.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0090 Shellder.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0091 Cloyster.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0092 Gastly.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0093 Haunter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0094 Gengar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0095 Onix.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0096 Drowzee.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0097 Hypno.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0098 Krabby.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0099 Kingler.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0100 Voltorb.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0101 Electrode.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0102 Exeggcute.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0103 Exeggutor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0104 Cubone.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0105 Marowak.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0106 Hitmonlee.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0107 Hitmonchan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0108 Lickitung.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0109 Koffing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0110 Weezing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0111 Rhyhorn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0112 Rhydon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0113 Chansey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0114 Tangela.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0115 Kangaskhan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0116 Horsea.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0117 Seadra.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0118 Goldeen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0119 Seaking.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0120 Staryu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0121 Starmie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0122 Mr. Mime .png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0123 Scyther.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0124 Jynx.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0125 Electabuzz.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0126 Magmar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0127 Pinsir.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0128 Tauros.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0129 Magikarp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0130 Gyarados.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0131 Lapras.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0132 Ditto.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0133 Eevee.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0134 Vaporeon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0135 Jolteon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0136 Flareon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0137 Porygon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0138 Omanyte.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0139 Omastar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0140 Kabuto.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0141 Kabutops.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0142 Aerodactyl.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0143 Snorlax.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0144 Articuno.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0145 Zapdos.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0146 Moltres.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0147 Dratini.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0148 Dragonair.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0149 Dragonite.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0150 Mewtwo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Pokemons\Front\0151 Mew.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>
