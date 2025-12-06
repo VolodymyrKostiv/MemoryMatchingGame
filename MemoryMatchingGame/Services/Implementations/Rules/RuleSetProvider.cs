@@ -8,8 +8,8 @@ public class RuleSetProvider : IRuleSetProvider
     {
         return
         [
-            new EasyRuleSet(),
-            new HardRuleSet(),
+            EasyRuleSet.Instance,
+            HardRuleSet.Instance,
         ];
     }
 }

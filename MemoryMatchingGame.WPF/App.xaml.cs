@@ -1,4 +1,4 @@
-﻿using MemoryMatchingGame.Infrastructure.Extensions;
+﻿using MemoryMatchingGame.WPF.Extensions;
 using MemoryMatchingGame.WPF.Services.Implementations;
 using MemoryMatchingGame.WPF.Services.Interfaces;
 using MemoryMatchingGame.WPF.ViewModels;
@@ -31,6 +31,8 @@ public partial class App : Application
         services.AddSingleton<MainViewModel>();
 
         services.AddSingleton<INavigation, NavigationService>();
+        services.AddSingleton<IImageService, ImageService>();   
+        services.AddSingleton<IImageCacheService, ImageCacheService>();
 
         services.AddTransient<MenuViewModel>();
         services.AddTransient<SettingsViewModel>();

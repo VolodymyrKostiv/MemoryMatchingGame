@@ -1,12 +1,12 @@
-﻿using MemoryMatchingGame.Core.Enums;
-using MemoryMatchingGame.Core.Entities;
-using MemoryMatchingGame.Core.Services.Interfaces.Rules;
+﻿using MemoryMatchingGame.Core.Entities;
+using MemoryMatchingGame.Core.Enums;
 using MemoryMatchingGame.Core.Services.Interfaces;
+using MemoryMatchingGame.Core.Services.Interfaces.Rules;
 using System.Collections.ObjectModel;
 
 namespace MemoryMatchingGame.Core.Services.Implementations;
 
-public class GameEngine : IGameEngine
+public sealed class GameEngine : IGameEngine
 {
     private readonly IMatchChecker _matchChecker;
     private readonly IShuffler _shuffler;
@@ -53,7 +53,6 @@ public class GameEngine : IGameEngine
 
         return (rows, cols);
     }
-
 
     public void FlipCard(Card card)
     {

@@ -6,7 +6,7 @@ using System.Collections.ObjectModel;
 
 namespace MemoryMatchingGame.Core.Services.Implementations;
 
-public class MatchChecker : IMatchChecker
+public sealed class MatchChecker : IMatchChecker
 {
     public MatchStatus Check(ObservableCollection<Card> flippedCards, IRuleSet settings)
     {

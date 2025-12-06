@@ -9,5 +9,5 @@ public interface IGameEngine
     void StartNewGame(IRuleSet ruleSet);
     void FlipCard(Card card);
     (int Rows, int Cols) CalculateGrid(int totalCards);
-    ObservableCollection<Card> Cards { get; }  
+    ObservableCollection<Card>? Cards { get; }  
 }

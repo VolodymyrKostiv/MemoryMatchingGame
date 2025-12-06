@@ -2,8 +2,11 @@
 
 namespace MemoryMatchingGame.Core.Services.Implementations.Rules;
 
-public class HardRuleSet : IRuleSet
+public sealed class HardRuleSet : IRuleSet
 {
+    public static HardRuleSet Instance { get; } = new();
+    private HardRuleSet() { }
+
     public int TotalCards => 64;
     public int CardsPerMatch => 4;
     public string Name => $"Hard ({TotalCards} cards, {CardsPerMatch} per match)";

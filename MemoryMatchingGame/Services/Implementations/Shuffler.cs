@@ -3,7 +3,7 @@ using MemoryMatchingGame.Core.Services.Interfaces;
 
 namespace MemoryMatchingGame.Core.Services.Implementations;
 
-public class Shuffler : IShuffler
+public sealed class Shuffler : IShuffler
 {
     // Based on Fisher–Yates shuffle:
     // http://en.wikipedia.org/wiki/Fisher-Yates_shuffle

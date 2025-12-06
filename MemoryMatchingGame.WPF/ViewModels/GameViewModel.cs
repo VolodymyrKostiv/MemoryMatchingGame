@@ -3,8 +3,11 @@ using GalaSoft.MvvmLight.Command;
 using MemoryMatchingGame.Core.Entities;
 using MemoryMatchingGame.Core.Services.Interfaces;
 using MemoryMatchingGame.Core.Services.Interfaces.Rules;
+using MemoryMatchingGame.WPF.Services.Interfaces;
 using System.Collections.ObjectModel;
+using System.IO;
 using System.Windows.Input;
+using System.Windows.Media.Imaging;
 
 namespace MemoryMatchingGame.WPF.ViewModels;
 
@@ -28,6 +31,13 @@ public class GameViewModel : ViewModelBase
         set => Set(ref _columns, value);
     }
 
+    private BitmapImage _sourcePath;
+    public BitmapImage SourcePath
+    {
+        get => _sourcePath;
+        set => Set(ref _sourcePath, value);
+    }
+
     public ObservableCollection<Card> Cards { get; set; }
 
     public ICommand FlipCommand { get; set; }   
@@ -39,7 +49,8 @@ public class GameViewModel : ViewModelBase
 
     public GameViewModel(
         IGameContext gameContext,
-        IGameEngine gameEngine)
+        IGameEngine gameEngine,
+        IImageService imageService)
     {
         _gameContext = gameContext;
         _gameEngine = gameEngine;
@@ -49,5 +60,18 @@ public class GameViewModel : ViewModelBase
         _gameEngine.StartNewGame(_ruleSet);
         Cards = _gameEngine.Cards;
         (Rows, Columns) = _gameEngine.CalculateGrid(_ruleSet.TotalCards);
+
+        var currentDirectory = Directory.GetCurrentDirectory();
+        //currentDirectory.IndexOf()
+
+        DirectoryInfo d = 
+            new(@"D:\Projects\MemoryMatchingGame\MemoryMatchingGame.Resources\Assets\Images\Pokemons\Front");
+
+        FileInfo[] Files = d.GetFiles("*.png");
+
+
+
+        //var image = imageService.Load("Pokemons.Back.01_Pokeball");
+        //SourcePath = image;
     }
 }

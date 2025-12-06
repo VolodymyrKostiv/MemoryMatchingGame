@@ -10,7 +10,7 @@
              d:DataContext="{d:DesignInstance Type=vm:GameViewModel,
                                               IsDesignTimeCreatable=True}"
              mc:Ignorable="d">
-    <Grid>
+    <Grid Width="100" Height="100">
         <ItemsControl ItemsSource="{Binding Cards}">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
@@ -21,7 +21,9 @@
                 <DataTemplate>
                     <usercontrols:ContentControl3D x:Name="contentCtrl3D">
                         <usercontrols:ContentControl3D.Content>
-                            <BitmapImage  Command="usercontrols:ContentControl3D.RotateCommand" Content="A" />
+                            <Button Command="usercontrols:ContentControl3D.RotateCommand">
+                                <Image Source="pack://application:,,,/MemoryMatchingGame.Resources;component/Assets/Images/Pokemons/Back/01 Pokeball.png" />
+                            </Button>
                         </usercontrols:ContentControl3D.Content>
                         <usercontrols:ContentControl3D.BackContent>
                             <Button Command="usercontrols:ContentControl3D.RotateCommand" Content="B" />

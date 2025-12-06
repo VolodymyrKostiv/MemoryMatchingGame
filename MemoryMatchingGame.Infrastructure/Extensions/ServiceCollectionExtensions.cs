@@ -2,6 +2,8 @@
 using MemoryMatchingGame.Core.Services.Implementations.Rules;
 using MemoryMatchingGame.Core.Services.Interfaces;
 using MemoryMatchingGame.Core.Services.Interfaces.Rules;
+using MemoryMatchingGame.Infrastructure.Services.Implementations;
+using MemoryMatchingGame.Infrastructure.Services.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace MemoryMatchingGame.Infrastructure.Extensions;

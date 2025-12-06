@@ -2,7 +2,7 @@
 
 namespace MemoryMatchingGame.Core.Services.Implementations.Rules;
 
-public class RuleSetConstraints : IRuleSetConstraints
+public sealed class RuleSetConstraints : IRuleSetConstraints
 {
     public int MinCardsPerMatch => 2;
     public int MaxCardsPerMatch => 5;

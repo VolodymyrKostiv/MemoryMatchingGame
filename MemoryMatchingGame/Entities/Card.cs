@@ -2,16 +2,9 @@
 
 namespace MemoryMatchingGame.Core.Entities;
 
-public class Card
+public class Card(Guid id, Guid matchingKey)
 {
-    public Guid Id { get; private set; }
-    public Guid MatchingKey { get; private set; }
+    public Guid Id { get; } = id;
+    public Guid MatchingKey { get; } = matchingKey;
     public CardStatus Status { get; set; } = CardStatus.NonFlipped;
-    public string ImageKey { get; set; } = string.Empty;
-
-    public Card(Guid id, Guid matchingKey)
-    {
-        Id = id;
-        MatchingKey = matchingKey;
-    }
 }

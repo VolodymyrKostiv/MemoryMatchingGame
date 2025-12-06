@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace MemoryMatchingGame.WPF.Services.Implementations;
 
-public class NavigationService : INavigation
+public sealed class NavigationService : INavigation
 {
     private readonly IServiceProvider _serviceProvider;
     private readonly Stack<ViewModelBase> _history = new();
