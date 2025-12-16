@@ -11,10 +11,14 @@
                                               IsDesignTimeCreatable=True}"
              mc:Ignorable="d">
     <Grid Width="100" Height="100">
-        <ItemsControl ItemsSource="{Binding Cards}">
+        <ItemsControl ItemsSource="{Binding Cards}"
+                      ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                      ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                      VirtualizingPanel.IsVirtualizing="True"
+                      VirtualizingPanel.VirtualizationMode="Recycling">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <UniformGrid Columns="{Binding Columns}" Rows="{Binding Rows}" />
+                    <UniformGrid />
                 </ItemsPanelTemplate>
             </ItemsControl.ItemsPanel>
             <ItemsControl.ItemTemplate>
@@ -22,11 +26,23 @@
                     <usercontrols:ContentControl3D x:Name="contentCtrl3D">
                         <usercontrols:ContentControl3D.Content>
                             <Button Command="usercontrols:ContentControl3D.RotateCommand">
-                                <Image Source="pack://application:,,,/MemoryMatchingGame.Resources;component/Assets/Images/Pokemons/Back/01 Pokeball.png" />
+                                <Image Width="80"
+                                       Height="80"
+                                       CacheMode="BitmapCache"
+                                       RenderOptions.BitmapScalingMode="LowQuality"
+                                       Source="{Binding BackImage}"
+                                       Stretch="Uniform" />
                             </Button>
                         </usercontrols:ContentControl3D.Content>
                         <usercontrols:ContentControl3D.BackContent>
-                            <Button Command="usercontrols:ContentControl3D.RotateCommand" Content="B" />
+                            <Button Command="usercontrols:ContentControl3D.RotateCommand">
+                                <Image Width="80"
+                                       Height="80"
+                                       CacheMode="BitmapCache"
+                                       RenderOptions.BitmapScalingMode="LowQuality"
+                                       Source="{Binding FrontImage}"
+                                       Stretch="Uniform" />
+                            </Button>
                         </usercontrols:ContentControl3D.BackContent>
                     </usercontrols:ContentControl3D>
                 </DataTemplate>
