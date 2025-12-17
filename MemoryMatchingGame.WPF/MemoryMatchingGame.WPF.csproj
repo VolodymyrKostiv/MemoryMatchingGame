@@ -9,6 +9,1568 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ImagePacks\Pokemon_Gen1\Back\pokeball.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0001 Bulbasaur.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0002 Ivysaur.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0003 Venusaur.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0004 Charmander.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0005 Charmeleon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0006 Charizard.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0007 Squirtle.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0008 Wartortle.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0009 Blastoise.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0010 Caterpie.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0011 Metapod.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0012 Butterfree.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0013 Weedle.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0014 Kakuna.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0015 Beedrill.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0016 Pidgey.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0017 Pidgeotto.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0018 Pidgeot.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0019 Rattata.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0020 Raticate.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0021 Spearow.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0022 Fearow.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0023 Ekans.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0024 Arbok.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0025 Pikachu.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0026 Raichu.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0027 Sandshrew.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0028 Sandslash.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0029 Nidoran.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0030 Nidorina.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0031 Nidoqueen.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0032 Nidoran.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0033 Nidorino.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0034 Nidoking.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0035 Clefairy.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0036 Clefable.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0037 Vulpix.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0038 Ninetales.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0039 Jigglypuff.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0040 Wigglytuff.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0041 Zubat.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0042 Golbat.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0043 Oddish.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0044 Gloom.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0045 Vileplume.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0046 Paras.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0047 Parasect.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0048 Venonat.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0049 Venomoth.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0050 Diglett.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0051 Dugtrio.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0052 Meowth.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0053 Persian.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0054 Psyduck.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0055 Golduck.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0056 Mankey.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0057 Primeape.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0058 Growlithe.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0059 Arcanine.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0060 Poliwag.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0061 Poliwhirl.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0062 Poliwrath.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0063 Abra.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0064 Kadabra.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0065 Alakazam.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0066 Machop.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0067 Machoke.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0068 Machamp.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0069 Bellsprout.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0070 Weepinbell.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0071 Victreebel.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0072 Tentacool.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0073 Tentacruel.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0074 Geodude.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0075 Graveler.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0076 Golem.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0077 Ponyta.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0078 Rapidash.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0079 Slowpoke.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0080 Slowbro.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0081 Magnemite.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0082 Magneton.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0083 Farfetch%27d.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0084 Doduo.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0085 Dodrio.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0086 Seel.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0087 Dewgong.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0088 Grimer.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0089 Muk.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0090 Shellder.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0091 Cloyster.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0092 Gastly.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0093 Haunter.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0094 Gengar.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0095 Onix.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0096 Drowzee.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0097 Hypno.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0098 Krabby.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0099 Kingler.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0100 Voltorb.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0101 Electrode.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0102 Exeggcute.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0103 Exeggutor.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0104 Cubone.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0105 Marowak.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0106 Hitmonlee.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0107 Hitmonchan.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0108 Lickitung.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0109 Koffing.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0110 Weezing.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0111 Rhyhorn.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0112 Rhydon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0113 Chansey.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0114 Tangela.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0115 Kangaskhan.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0116 Horsea.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0117 Seadra.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0118 Goldeen.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0119 Seaking.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0120 Staryu.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0121 Starmie.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0122 Mr. Mime .png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0123 Scyther.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0124 Jynx.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0125 Electabuzz.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0126 Magmar.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0127 Pinsir.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0128 Tauros.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0129 Magikarp.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0130 Gyarados.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0131 Lapras.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0132 Ditto.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0133 Eevee.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0134 Vaporeon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0135 Jolteon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0136 Flareon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0137 Porygon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0138 Omanyte.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0139 Omastar.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0140 Kabuto.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0141 Kabutops.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0142 Aerodactyl.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0143 Snorlax.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0144 Articuno.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0145 Zapdos.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0146 Moltres.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0147 Dratini.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0148 Dragonair.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0149 Dragonite.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0150 Mewtwo.png" />
+    <None Remove="ImagePacks\Pokemon_Gen1\Front\0151 Mew.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Back\pokeball.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0152 Chikorita.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0153 Bayleef.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0154 Meganium.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0155 Cyndaquil.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0156 Quilava.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0157 Typhlosion.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0158 Totodile.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0159 Croconaw.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0160 Feraligatr.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0161 Sentret.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0162 Furret.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0163 Hoothoot.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0164 Noctowl.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0165 Ledyba.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0166 Ledian.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0167 Spinarak.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0168 Ariados.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0169 Crobat.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0170 Chinchou.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0171 Lanturn.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0172 Pichu.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0173 Cleffa.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0174 Igglybuff.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0175 Togepi.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0176 Togetic.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0177 Natu.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0178 Xatu.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0179 Mareep.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0180 Flaaffy.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0181 Ampharos.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0182 Bellossom.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0183 Marill.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0184 Azumarill.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0185 Sudowoodo.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0186 Politoed.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0187 Hoppip.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0188 Skiploom.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0189 Jumpluff.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0190 Aipom.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0191 Sunkern.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0192 Sunflora.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0193 Yanma.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0194 Wooper.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0195 Quagsire.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0196 Espeon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0197 Umbreon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0198 Murkrow.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0199 Slowking.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0200 Misdreavus.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0201 Unown.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0202 Wobbuffet.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0203 Girafarig.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0204 Pineco.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0205 Forretress.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0206 Dunsparce.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0207 Gligar.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0208 Steelix.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0209 Snubbull.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0210 Granbull.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0211 Qwilfish.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0212 Scizor.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0213 Shuckle.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0214 Heracross.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0215 Sneasel.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0216 Teddiursa.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0217 Ursaring.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0218 Slugma.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0219 Magcargo.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0220 Swinub.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0221 Piloswine.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0222 Corsola.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0223 Remoraid.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0224 Octillery.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0225 Delibird.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0226 Mantine.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0227 Skarmory.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0228 Houndour.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0229 Houndoom.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0230 Kingdra.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0231 Phanpy.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0232 Donphan.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0233 Porygon2.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0234 Stantler.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0235 Smeargle.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0236 Tyrogue.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0237 Hitmontop.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0238 Smoochum.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0239 Elekid.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0240 Magby.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0241 Miltank.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0242 Blissey.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0243 Raikou.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0244 Entei.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0245 Suicune.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0246 Larvitar.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0247 Pupitar.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0248 Tyranitar.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0249 Lugia.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0250 Ho-Oh.png" />
+    <None Remove="ImagePacks\Pokemon_Gen2\Front\0251 Celebi.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Back\pokeball.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0252 Treecko.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0253 Grovyle.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0254 Sceptile.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0255 Torchic.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0256 Combusken.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0257 Blaziken.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0258 Mudkip.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0259 Marshtomp.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0260 Swampert.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0261 Poochyena.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0262 Mightyena.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0263 Zigzagoon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0264 Linoone.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0265 Wurmple.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0266 Silcoon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0267 Beautifly.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0268 Cascoon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0269 Dustox.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0270 Lotad.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0271 Lombre.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0272 Ludicolo.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0273 Seedot.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0274 Nuzleaf.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0275 Shiftry.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0276 Taillow.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0277 Swellow.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0278 Wingull.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0279 Pelipper.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0280 Ralts.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0281 Kirlia.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0282 Gardevoir.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0283 Surskit.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0284 Masquerain.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0285 Shroomish.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0286 Breloom.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0287 Slakoth.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0288 Vigoroth.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0289 Slaking.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0290 Nincada.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0291 Ninjask.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0292 Shedinja.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0293 Whismur.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0294 Loudred.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0295 Exploud.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0296 Makuhita.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0297 Hariyama.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0298 Azurill.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0299 Nosepass.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0300 Skitty.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0301 Delcatty.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0302 Sableye.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0303 Mawile.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0304 Aron.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0305 Lairon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0306 Aggron.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0307 Meditite.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0308 Medicham.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0309 Electrike.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0310 Manectric.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0311 Plusle.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0312 Minun.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0313 Volbeat.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0314 Illumise.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0315 Roselia.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0316 Gulpin.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0317 Swalot.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0318 Carvanha.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0319 Sharpedo.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0320 Wailmer.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0321 Wailord.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0322 Numel.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0323 Camerupt.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0324 Torkoal.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0325 Spoink.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0326 Grumpig.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0327 Spinda.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0328 Trapinch.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0329 Vibrava.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0330 Flygon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0331 Cacnea.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0332 Cacturne.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0333 Swablu.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0334 Altaria.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0335 Zangoose.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0336 Seviper.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0337 Lunatone.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0338 Solrock.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0339 Barboach.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0340 Whiscash.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0341 Corphish.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0342 Crawdaunt.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0343 Baltoy.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0344 Claydol.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0345 Lileep.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0346 Cradily.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0347 Anorith.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0348 Armaldo.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0349 Feebas.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0350 Milotic.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0351 Castform.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0352 Kecleon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0353 Shuppet.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0354 Banette.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0355 Duskull.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0356 Dusclops.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0357 Tropius.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0358 Chimecho.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0359 Absol.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0360 Wynaut.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0361 Snorunt.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0362 Glalie.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0363 Spheal.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0364 Sealeo.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0365 Walrein.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0366 Clamperl.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0367 Huntail.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0368 Gorebyss.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0369 Relicanth.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0370 Luvdisc.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0371 Bagon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0372 Shelgon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0373 Salamence.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0374 Beldum.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0375 Metang.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0376 Metagross.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0377 Regirock.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0378 Regice.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0379 Registeel.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0380 Latias.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0381 Latios.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0382 Kyogre.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0383 Groudon.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0384 Rayquaza.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0385 Jirachi.png" />
+    <None Remove="ImagePacks\Pokemon_Gen3\Front\0386 Deoxys.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ImagePacks\Pokemon_Gen1\Back\pokeball.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0001 Bulbasaur.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0002 Ivysaur.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0003 Venusaur.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0004 Charmander.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0005 Charmeleon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0006 Charizard.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0007 Squirtle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0008 Wartortle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0009 Blastoise.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0010 Caterpie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0011 Metapod.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0012 Butterfree.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0013 Weedle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0014 Kakuna.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0015 Beedrill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0016 Pidgey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0017 Pidgeotto.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0018 Pidgeot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0019 Rattata.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0020 Raticate.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0021 Spearow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0022 Fearow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0023 Ekans.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0024 Arbok.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0025 Pikachu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0026 Raichu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0027 Sandshrew.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0028 Sandslash.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0029 Nidoran.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0030 Nidorina.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0031 Nidoqueen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0032 Nidoran.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0033 Nidorino.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0034 Nidoking.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0035 Clefairy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0036 Clefable.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0037 Vulpix.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0038 Ninetales.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0039 Jigglypuff.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0040 Wigglytuff.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0041 Zubat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0042 Golbat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0043 Oddish.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0044 Gloom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0045 Vileplume.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0046 Paras.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0047 Parasect.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0048 Venonat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0049 Venomoth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0050 Diglett.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0051 Dugtrio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0052 Meowth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0053 Persian.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0054 Psyduck.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0055 Golduck.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0056 Mankey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0057 Primeape.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0058 Growlithe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0059 Arcanine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0060 Poliwag.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0061 Poliwhirl.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0062 Poliwrath.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0063 Abra.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0064 Kadabra.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0065 Alakazam.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0066 Machop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0067 Machoke.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0068 Machamp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0069 Bellsprout.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0070 Weepinbell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0071 Victreebel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0072 Tentacool.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0073 Tentacruel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0074 Geodude.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0075 Graveler.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0076 Golem.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0077 Ponyta.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0078 Rapidash.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0079 Slowpoke.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0080 Slowbro.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0081 Magnemite.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0082 Magneton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0083 Farfetch'd.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0084 Doduo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0085 Dodrio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0086 Seel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0087 Dewgong.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0088 Grimer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0089 Muk.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0090 Shellder.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0091 Cloyster.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0092 Gastly.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0093 Haunter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0094 Gengar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0095 Onix.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0096 Drowzee.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0097 Hypno.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0098 Krabby.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0099 Kingler.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0100 Voltorb.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0101 Electrode.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0102 Exeggcute.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0103 Exeggutor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0104 Cubone.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0105 Marowak.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0106 Hitmonlee.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0107 Hitmonchan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0108 Lickitung.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0109 Koffing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0110 Weezing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0111 Rhyhorn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0112 Rhydon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0113 Chansey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0114 Tangela.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0115 Kangaskhan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0116 Horsea.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0117 Seadra.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0118 Goldeen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0119 Seaking.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0120 Staryu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0121 Starmie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0122 Mr. Mime .png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0123 Scyther.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0124 Jynx.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0125 Electabuzz.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0126 Magmar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0127 Pinsir.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0128 Tauros.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0129 Magikarp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0130 Gyarados.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0131 Lapras.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0132 Ditto.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0133 Eevee.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0134 Vaporeon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0135 Jolteon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0136 Flareon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0137 Porygon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0138 Omanyte.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0139 Omastar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0140 Kabuto.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0141 Kabutops.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0142 Aerodactyl.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0143 Snorlax.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0144 Articuno.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0145 Zapdos.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0146 Moltres.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0147 Dratini.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0148 Dragonair.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0149 Dragonite.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0150 Mewtwo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen1\Front\0151 Mew.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Back\pokeball.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0152 Chikorita.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0153 Bayleef.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0154 Meganium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0155 Cyndaquil.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0156 Quilava.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0157 Typhlosion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0158 Totodile.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0159 Croconaw.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0160 Feraligatr.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0161 Sentret.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0162 Furret.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0163 Hoothoot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0164 Noctowl.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0165 Ledyba.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0166 Ledian.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0167 Spinarak.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0168 Ariados.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0169 Crobat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0170 Chinchou.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0171 Lanturn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0172 Pichu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0173 Cleffa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0174 Igglybuff.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0175 Togepi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0176 Togetic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0177 Natu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0178 Xatu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0179 Mareep.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0180 Flaaffy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0181 Ampharos.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0182 Bellossom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0183 Marill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0184 Azumarill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0185 Sudowoodo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0186 Politoed.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0187 Hoppip.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0188 Skiploom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0189 Jumpluff.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0190 Aipom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0191 Sunkern.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0192 Sunflora.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0193 Yanma.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0194 Wooper.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0195 Quagsire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0196 Espeon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0197 Umbreon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0198 Murkrow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0199 Slowking.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0200 Misdreavus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0201 Unown.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0202 Wobbuffet.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0203 Girafarig.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0204 Pineco.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0205 Forretress.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0206 Dunsparce.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0207 Gligar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0208 Steelix.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0209 Snubbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0210 Granbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0211 Qwilfish.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0212 Scizor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0213 Shuckle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0214 Heracross.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0215 Sneasel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0216 Teddiursa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0217 Ursaring.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0218 Slugma.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0219 Magcargo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0220 Swinub.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0221 Piloswine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0222 Corsola.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0223 Remoraid.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0224 Octillery.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0225 Delibird.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0226 Mantine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0227 Skarmory.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0228 Houndour.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0229 Houndoom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0230 Kingdra.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0231 Phanpy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0232 Donphan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0233 Porygon2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0234 Stantler.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0235 Smeargle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0236 Tyrogue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0237 Hitmontop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0238 Smoochum.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0239 Elekid.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0240 Magby.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0241 Miltank.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0242 Blissey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0243 Raikou.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0244 Entei.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0245 Suicune.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0246 Larvitar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0247 Pupitar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0248 Tyranitar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0249 Lugia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0250 Ho-Oh.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen2\Front\0251 Celebi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Back\pokeball.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0252 Treecko.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0253 Grovyle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0254 Sceptile.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0255 Torchic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0256 Combusken.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0257 Blaziken.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0258 Mudkip.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0259 Marshtomp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0260 Swampert.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0261 Poochyena.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0262 Mightyena.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0263 Zigzagoon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0264 Linoone.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0265 Wurmple.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0266 Silcoon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0267 Beautifly.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0268 Cascoon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0269 Dustox.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0270 Lotad.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0271 Lombre.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0272 Ludicolo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0273 Seedot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0274 Nuzleaf.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0275 Shiftry.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0276 Taillow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0277 Swellow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0278 Wingull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0279 Pelipper.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0280 Ralts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0281 Kirlia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0282 Gardevoir.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0283 Surskit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0284 Masquerain.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0285 Shroomish.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0286 Breloom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0287 Slakoth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0288 Vigoroth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0289 Slaking.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0290 Nincada.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0291 Ninjask.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0292 Shedinja.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0293 Whismur.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0294 Loudred.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0295 Exploud.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0296 Makuhita.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0297 Hariyama.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0298 Azurill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0299 Nosepass.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0300 Skitty.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0301 Delcatty.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0302 Sableye.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0303 Mawile.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0304 Aron.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0305 Lairon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0306 Aggron.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0307 Meditite.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0308 Medicham.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0309 Electrike.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0310 Manectric.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0311 Plusle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0312 Minun.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0313 Volbeat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0314 Illumise.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0315 Roselia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0316 Gulpin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0317 Swalot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0318 Carvanha.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0319 Sharpedo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0320 Wailmer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0321 Wailord.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0322 Numel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0323 Camerupt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0324 Torkoal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0325 Spoink.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0326 Grumpig.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0327 Spinda.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0328 Trapinch.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0329 Vibrava.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0330 Flygon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0331 Cacnea.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0332 Cacturne.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0333 Swablu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0334 Altaria.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0335 Zangoose.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0336 Seviper.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0337 Lunatone.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0338 Solrock.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0339 Barboach.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0340 Whiscash.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0341 Corphish.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0342 Crawdaunt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0343 Baltoy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0344 Claydol.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0345 Lileep.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0346 Cradily.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0347 Anorith.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0348 Armaldo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0349 Feebas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0350 Milotic.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0351 Castform.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0352 Kecleon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0353 Shuppet.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0354 Banette.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0355 Duskull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0356 Dusclops.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0357 Tropius.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0358 Chimecho.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0359 Absol.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0360 Wynaut.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0361 Snorunt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0362 Glalie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0363 Spheal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0364 Sealeo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0365 Walrein.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0366 Clamperl.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0367 Huntail.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0368 Gorebyss.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0369 Relicanth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0370 Luvdisc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0371 Bagon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0372 Shelgon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0373 Salamence.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0374 Beldum.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0375 Metang.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0376 Metagross.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0377 Regirock.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0378 Regice.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0379 Registeel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0380 Latias.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0381 Latios.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0382 Kyogre.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0383 Groudon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0384 Rayquaza.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0385 Jirachi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagePacks\Pokemon_Gen3\Front\0386 Deoxys.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.9" />
     <PackageReference Include="MvvmLight" Version="5.4.1.1" />
   </ItemGroup>

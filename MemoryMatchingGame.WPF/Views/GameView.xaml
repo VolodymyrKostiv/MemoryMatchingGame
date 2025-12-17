@@ -10,7 +10,7 @@
              d:DataContext="{d:DesignInstance Type=vm:GameViewModel,
                                               IsDesignTimeCreatable=True}"
              mc:Ignorable="d">
-    <Grid Width="100" Height="100">
+    <Grid x:Name="parentGrid" Margin="{Binding Columns}">
         <ItemsControl ItemsSource="{Binding Cards}"
                       ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                       ScrollViewer.VerticalScrollBarVisibility="Disabled"
@@ -18,29 +18,35 @@
                       VirtualizingPanel.VirtualizationMode="Recycling">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <UniformGrid />
+                    <UniformGrid Columns="{Binding DataContext.Columns, RelativeSource={RelativeSource AncestorType=ItemsControl}}" Rows="{Binding DataContext.Rows, RelativeSource={RelativeSource AncestorType=ItemsControl}}" />
                 </ItemsPanelTemplate>
             </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemContainerStyle>
+                <Style TargetType="ContentPresenter">
+                    <Setter Property="Width" Value="100" />
+                    <Setter Property="Height" Value="100" />
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                </Style>
+            </ItemsControl.ItemContainerStyle>
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
                     <usercontrols:ContentControl3D x:Name="contentCtrl3D">
                         <usercontrols:ContentControl3D.Content>
                             <Button Command="usercontrols:ContentControl3D.RotateCommand">
-                                <Image Width="80"
-                                       Height="80"
-                                       CacheMode="BitmapCache"
+                                <Image CacheMode="BitmapCache"
                                        RenderOptions.BitmapScalingMode="LowQuality"
-                                       Source="{Binding BackImage}"
+                                       SnapsToDevicePixels="True"
+                                       Source="{Binding DataContext.BackImage, RelativeSource={RelativeSource AncestorType=ItemsControl}}"
                                        Stretch="Uniform" />
                             </Button>
                         </usercontrols:ContentControl3D.Content>
                         <usercontrols:ContentControl3D.BackContent>
                             <Button Command="usercontrols:ContentControl3D.RotateCommand">
-                                <Image Width="80"
-                                       Height="80"
-                                       CacheMode="BitmapCache"
+                                <Image CacheMode="BitmapCache"
                                        RenderOptions.BitmapScalingMode="LowQuality"
-                                       Source="{Binding FrontImage}"
+                                       SnapsToDevicePixels="True"
+                                       Source="{Binding Image}"
                                        Stretch="Uniform" />
                             </Button>
                         </usercontrols:ContentControl3D.BackContent>

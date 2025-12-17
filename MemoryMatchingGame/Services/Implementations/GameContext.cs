@@ -6,5 +6,5 @@ namespace MemoryMatchingGame.Core.Services.Implementations;
 
 public class GameContext : IGameContext
 {
-    public IRuleSet CurrentRuleSet { get; set; } = EasyRuleSet.Instance;
+    public IRuleSet CurrentRuleSet { get; set; } = HardRuleSet.Instance;
 }
