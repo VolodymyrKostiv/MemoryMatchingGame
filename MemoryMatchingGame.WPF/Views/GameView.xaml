@@ -10,8 +10,14 @@
              d:DataContext="{d:DesignInstance Type=vm:GameViewModel,
                                               IsDesignTimeCreatable=True}"
              mc:Ignorable="d">
-    <Grid x:Name="parentGrid" Margin="{Binding Columns}">
-        <ItemsControl ItemsSource="{Binding Cards}"
+    <Grid x:Name="parentGrid"
+          Margin="{Binding Columns}"
+          HorizontalAlignment="Center">
+        <ItemsControl Width="Auto"
+                      Height="Auto"
+                      HorizontalAlignment="Stretch"
+                      VerticalAlignment="Stretch"
+                      ItemsSource="{Binding Cards}"
                       ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                       ScrollViewer.VerticalScrollBarVisibility="Disabled"
                       VirtualizingPanel.IsVirtualizing="True"
@@ -23,31 +29,33 @@
             </ItemsControl.ItemsPanel>
             <ItemsControl.ItemContainerStyle>
                 <Style TargetType="ContentPresenter">
-                    <Setter Property="Width" Value="100" />
-                    <Setter Property="Height" Value="100" />
+                    <!--<Setter Property="Height" Value="100" />
+                    <Setter Property="Width" Value="100" />-->
                     <Setter Property="HorizontalAlignment" Value="Center" />
                     <Setter Property="VerticalAlignment" Value="Center" />
                 </Style>
             </ItemsControl.ItemContainerStyle>
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <usercontrols:ContentControl3D x:Name="contentCtrl3D">
+                    <usercontrols:ContentControl3D x:Name="contentCtrl3D"
+                                                   HorizontalAlignment="Stretch"
+                                                   VerticalAlignment="Stretch">
                         <usercontrols:ContentControl3D.Content>
-                            <Button Command="usercontrols:ContentControl3D.RotateCommand">
+                            <Button HorizontalContentAlignment="Stretch" Command="usercontrols:ContentControl3D.RotateCommand">
                                 <Image CacheMode="BitmapCache"
                                        RenderOptions.BitmapScalingMode="LowQuality"
                                        SnapsToDevicePixels="True"
                                        Source="{Binding DataContext.BackImage, RelativeSource={RelativeSource AncestorType=ItemsControl}}"
-                                       Stretch="Uniform" />
+                                       Stretch="Fill" />
                             </Button>
                         </usercontrols:ContentControl3D.Content>
                         <usercontrols:ContentControl3D.BackContent>
-                            <Button Command="usercontrols:ContentControl3D.RotateCommand">
+                            <Button HorizontalContentAlignment="Stretch" Command="usercontrols:ContentControl3D.RotateCommand">
                                 <Image CacheMode="BitmapCache"
                                        RenderOptions.BitmapScalingMode="LowQuality"
                                        SnapsToDevicePixels="True"
                                        Source="{Binding Image}"
-                                       Stretch="Uniform" />
+                                       Stretch="Fill" />
                             </Button>
                         </usercontrols:ContentControl3D.BackContent>
                     </usercontrols:ContentControl3D>
